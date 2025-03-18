@@ -1,0 +1,53 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+###
+GET https://localhost:7164/AvviaStanza/stanza1/2/2/2
+
+
+###
+GET https://localhost:7164/settasoglia/stanza1/temp/18
+###
+
+###
+GET https://localhost:7164/settasoglia/stanza1/luce/900
+###
+
+###
+GET https://localhost:7164/settasoglia/stanza1/umi/40
+###
+
+###
+GET https://localhost:7164/rilevaTemp/stanza1/1/0
+###
+
+
+GET https://localhost:7164/rilevaLuce/stanza1/1/1000
+###
+
+
+GET https://localhost:7164/rilevaUmi/stanza1/1/60
+
+###
+GET https://localhost:7164/inviaMedia/temp/stanza1/1
+
+###
+GET https://localhost:7164/inviaMedia/luce/stanza1/1
+
+###
+GET https://localhost:7164/inviaMedia/umi/stanza1/1
+
+
+###
+GET https://localhost:7164/collettoreElabora/stanza1
+###
+
+###
+GET https://localhost:7164/statoAttuatori/stanza1
+###
+
+###
+GET https://localhost:7164/setStagione/stanza1/estate
+###
+
+###
+GET https://localhost:7164/setStagione/stanza1/inverno
